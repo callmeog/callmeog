@@ -10,11 +10,13 @@ body {
 .container {
     display: flex;
     justify-content: space-between;
+    font-family: sans-serif;
 }
 
 
-h1 {
+.logo {
     font-weight: bold;
+    font-size: 5em;
 }
 
 
@@ -30,6 +32,11 @@ a {
     margin-bottom: 6px;
 }
 
+
+.vertical-line {
+    padding: 1em;
+}
+
 .line {
     height: 5px;
     width: 50px;
@@ -37,8 +44,14 @@ a {
     padding: 2px;
     display: block;
     margin: 5px;
+    cursor: pointer;
+    border-radius: 2px;
 }
 
  .short-line {
     width: 30px;
+}
+
+.hide {
+    display: none;
 }
