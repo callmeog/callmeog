@@ -4,9 +4,10 @@ window.onload = init;
 
 function init() {
 
-    hamburger.onclick = () => {
-        var navLink = document.querySelector('.line');
-        navLink.classList.toggle('hide');
+    var hamburgerLine = document.querySelector('.hamburger');
+    hamburgerLine.onclick = () => {
+        var navLinks = document.querySelector('.nav-links');
+        navLinks.classList.toggle('hide');
     }
 
 }
