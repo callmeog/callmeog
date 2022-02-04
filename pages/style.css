@@ -12,10 +12,23 @@ body {
     justify-content: space-between;
 }
 
-.nav-links li  {
-    list-style-type: none;
+
+h1 {
+    font-weight: bold;
 }
 
+
+.nav-links li  {
+    list-style-type: none;
+    margin-bottom: 10px;
+}
+
+
+a {
+    text-decoration: none;
+    font-size: 24px;
+    margin-bottom: 6px;
+}
 
 .line {
     height: 5px;
