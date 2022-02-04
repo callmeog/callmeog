@@ -3,18 +3,29 @@ body {
     padding: 0;
 }
 
+*,*::before, *::after {
+    box-sizing: border-box;
+}
+
 .container {
     display: flex;
     justify-content: space-between;
 }
 
-*,*::before, *::after {
-    box-sizing: border-box;
+.nav-links li  {
+    list-style-type: none;
 }
 
+
 .line {
-    height: 10px;
+    height: 5px;
     width: 50px;
     background: black;
-    padding: 5px;
+    padding: 2px;
+    display: block;
+    margin: 5px;
+}
+
+ .short-line {
+    width: 30px;
 }
