@@ -1,16 +1,16 @@
 body {
     margin: 0;
     padding: 0;
+    font-family: sans-serif;
 }
 
 *,*::before, *::after {
     box-sizing: border-box;
 }
 
-.container {
+.navbar {
     display: flex;
     justify-content: space-between;
-    font-family: sans-serif;
 }
 
 
@@ -20,24 +20,32 @@ body {
 }
 
 
-.nav-links li  {
+.nav-links  {
     list-style-type: none;
     margin-bottom: 10px;
+    position: fixed;
+    width: 100%;
+    top: 10em;
 }
+
 
 
 a {
     text-decoration: none;
     font-size: 24px;
     margin-bottom: 6px;
+    text-align: center;
+    display: block;
 }
 
 
-.vertical-line {
+
+
+.hamburger {
     padding: 1em;
 }
 
-.line {
+.hamburger .line {
     height: 5px;
     width: 50px;
     background: black;
@@ -48,9 +56,6 @@ a {
     border-radius: 2px;
 }
 
- .short-line {
-    width: 30px;
-}
 
 .hide {
     display: none;
