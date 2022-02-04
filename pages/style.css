@@ -32,7 +32,7 @@ body {
 
 a {
     text-decoration: none;
-    margin-bottom: 6px;
+    margin-bottom: 16px;
     font-size: 20px;
     text-align: center;
     display: block;
@@ -42,7 +42,7 @@ a {
 
 
 .hamburger {
-    padding: 1em;
+    padding: 10px;
 }
 
 .hamburger .line {
@@ -59,4 +59,25 @@ a {
 
 .hide {
     display: none;
+}
+
+/* for mobile phones */
+
+@media screen and (min-width: 600px) {
+    .nav-links {
+        position: static;
+        display: block;
+        width: auto;
+        padding: 20px 25px;
+    }
+
+    .nav-links a {
+        display: inline-block;
+        margin: 7px;
+        background: none;
+    }
+
+    .hamburger {
+        display: none;
+    }
 }
