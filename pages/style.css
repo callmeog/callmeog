@@ -31,6 +31,7 @@ body {
 
 
 
+
 a {
     text-decoration: none;
     margin-bottom: 16px;
@@ -41,14 +42,22 @@ a {
 
 
 
-
-.hamburger {
-    padding: 10px;
+/* hamburger background when mouced over */
+ .hamburger {
+    margin: 10px;
+    border-radius: 2px;
+    height: 35px;
 }
 
+.hamburger:hover {
+    background: lightgrey;
+}
+
+
+/* to make the hanburger line look and positioned the way it is */
 .hamburger .line {
-    height: 5px;
-    width: 50px;
+    height: 2px;
+    width: 40px;
     background: black;
     padding: 2px;
     display: block;
@@ -77,6 +86,7 @@ a {
         margin: 7px;
         background: none;
     }
+
 
     .hamburger {
         display: none;
