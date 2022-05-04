@@ -5,4 +5,4 @@ I'm a sofware developer, passionate,curious and always learning and thinking way
 ### 🌱 I’m currently learning
 - JAVASCRIPT
 
-[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=callmeog01&theme=blue-green&layout=compact&)](https://github.com/anuraghazra/github-readme-stats)
+[![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=callmeog&theme=blue-green&layout=compact&)](https://github.com/anuraghazra/github-readme-stats)
